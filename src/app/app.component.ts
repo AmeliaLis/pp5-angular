@@ -10,5 +10,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'invoice-app';
+  title = 'Amelia Lis';
+  imie = "Amelia"
+  nazwisko = "Lis"
 }
