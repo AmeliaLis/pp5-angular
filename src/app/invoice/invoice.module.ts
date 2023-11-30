@@ -5,6 +5,9 @@ import { CustomerFormComponent } from './components/customer-form/customer-form.
 
 
 @NgModule({
+  exports: [
+    CustomerFormComponent
+  ],
   declarations: [
     CustomerFormComponent
   ],
