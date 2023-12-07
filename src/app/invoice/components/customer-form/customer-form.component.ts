@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Customer } from '../../models/customer';
 
 @Component({
   selector: 'app-customer-form',
@@ -7,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './customer-form.component.scss'
 })
 export class CustomerFormComponent {
+  last = '';
+  customer: Customer = new Customer();
 
+  onSubmitForm() {
+    console.log(this.customer)
+  }
 }
